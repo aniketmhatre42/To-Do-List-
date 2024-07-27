@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('todo\ image.jpg');
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: rgb(49, 228, 124);
+    padding: 30px;
+    border-radius: 60px;
+    box-shadow: 0 0 10px rgba(210, 44, 44, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-left:50%; 
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: #0dd3d6;
+}
+
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px;
+    background: #0dd3d6;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #10d305;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+    flex: 1;
+    margin-left: 10px;
+}
+
+li button {
+    background: #fa7305;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+li button.edit {
+    background: #fa7305;
+}
+
+li button:hover {
+    background: #e5a519;
+}
+
+li button.edit:hover {
+    background: #e0a800;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
